@@ -33,7 +33,7 @@
                    :time-mid v6-time-mid
                    :time-hi-and-version v6-time-low-and-version
                    :clock-seq-hi-and-res (clock-seq-hi-and-res v1)
-                   :clock-seq-low (clock-seq-hi-and-res v1)
+                   :clock-seq-low (clock-seq-low v1)
                    :node (node v1))))
 
 (declaim (ftype (function (uuid) (values (unsigned-byte 32) &optional))
